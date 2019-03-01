@@ -1,0 +1,15 @@
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: pink;
+      color: purple;}
+nav { float: center;
+	  width: 150px;
+      }
+nav ul { list-style-type: none;
+		margin-left: 0;
+		padding: 10px; } 
+a { text-decoration: none;
+		padding: 1px;
+		font-weight: bold; }
+a:link { color: blue; }
+a:visited { color: white; }
+a:hover { color: red; }
