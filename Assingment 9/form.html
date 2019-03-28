@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; 
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column left">
+    <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+  
+<label>E-mail: <input type="email" name="email" id="email"
+  required="required" placeholder="you@yourdomain.com"></label><br>
+ 
+<label>Comments: <br>
+
+<textarea rows="5" cols="30" name="comment" id="comment"
+    maxlength="1600"> </textarea> </label><br>
+ 
+&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  <input type="submit" value="Send Feedback"> <br>
+&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<input type="reset">
+</form>
+ <br> Peyton Marmoll <br>
+  <a href="https://outlook.live.com/owa/"> My Email: z1759826@students.niu.edu </a>
+  </div>
+  <div class="column right">
+
+</body>
+</html>
